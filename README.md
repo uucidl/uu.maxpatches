@@ -12,6 +12,7 @@ Abstractions
 
 * uu.scaleedit: load & edit musical scales (use bpatcher)
 * uu.transcale: transposes integers into midi notes, through a musical scale (use bpatcher)
+* uu.dict.iterif: iterate and find a key in a dict with a given value
 
 FAQ
 ---
