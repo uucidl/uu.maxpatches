@@ -172,8 +172,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 37.5, 510.0, 32.5, 18.0 ],
-					"text" : "0"
+					"patching_rect" : [ 37.5, 510.0, 37.0, 18.0 ],
+					"text" : "set 0"
 				}
 
 			}
