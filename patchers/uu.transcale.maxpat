@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 0
+			"revision" : 1
 		}
 ,
 		"rect" : [ 0.0, 124.0, 1218.0, 799.0 ],
@@ -767,7 +767,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-35",
-					"items" : [ "(new)", ",", "<separator>", ",", "Chromatic", ",", "Major (ionian)", ",", "Minor (dorian)", ",", "Phrygian", ",", "Lydian", ",", "Myxolydian", ",", "Aeolian" ],
+					"items" : [ "(new)", ",", "<separator>", ",", "Chromatic", ",", "Major (ionian)", ",", "Minor (dorian)", ",", "Phrygian", ",", "Lydian", ",", "Myxolydian", ",", "Aeolian", ",", "Locrian", ",", "Ascending Melodic Minor", ",", "Javanese AMm", ",", "Lydian AugMm", ",", "4 ammb7", ",", "4 Algerian dh1", ",", "Pentatonic Minor", ",", "Pentatonic Major", ",", "Saouta", ",", "Simbi" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,

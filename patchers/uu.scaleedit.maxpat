@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 0
+			"revision" : 1
 		}
 ,
 		"rect" : [ 139.0, 44.0, 1021.0, 910.0 ],
@@ -50,7 +50,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 181.5, 80.0, 50.0, 18.0 ],
+					"patching_rect" : [ 158.0, 82.0, 50.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 10.0, 121.0, 142.0, 18.0 ]
 				}
@@ -100,7 +100,7 @@
 				"box" : 				{
 					"autohint" : 0,
 					"embed" : 0,
-					"hint" : "x 0 y 0",
+					"hint" : "x 5 y = 0",
 					"id" : "obj-5",
 					"maxclass" : "itable",
 					"name" : "",
@@ -108,7 +108,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 540.0, 659.0, 163.0, 64.0 ],
+					"patching_rect" : [ 540.0, 688.0, 163.0, 64.0 ],
 					"range" : 2,
 					"size" : 12
 				}
@@ -858,7 +858,7 @@
 					"destination" : [ "obj-87", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 693.5, 736.0, 714.25, 736.0, 714.25, 618.0, 603.0, 618.0 ],
+					"midpoints" : [ 693.5, 760.0, 714.25, 760.0, 714.25, 618.0, 603.0, 618.0 ],
 					"source" : [ "obj-5", 1 ]
 				}
 
@@ -940,7 +940,7 @@
 					"destination" : [ "obj-28", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 549.5, 943.0, 876.75, 943.0, 876.75, 70.0, 222.0, 70.0 ],
+					"midpoints" : [ 549.5, 943.0, 876.75, 943.0, 876.75, 70.0, 198.5, 70.0 ],
 					"source" : [ "obj-83", 0 ]
 				}
 
