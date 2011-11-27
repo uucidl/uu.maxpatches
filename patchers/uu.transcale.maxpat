@@ -675,9 +675,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 995.0, 143.5, 125.0, 20.0 ],
-					"text" : "loadmess scales.json"
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 995.0, 143.5, 60.0, 20.0 ],
+					"text" : "loadbang"
 				}
 
 			}
@@ -767,7 +767,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-35",
-					"items" : [ "(new)", ",", "<separator>", ",", "Chromatic", ",", "Major (ionian)", ",", "Minor (dorian)", ",", "Phrygian", ",", "Lydian", ",", "Myxolydian", ",", "Aeolian", ",", "Locrian", ",", "Ascending Melodic Minor", ",", "Javanese AMm", ",", "Lydian AugMm", ",", "4 ammb7", ",", "4 Algerian dh1", ",", "Pentatonic Minor", ",", "Pentatonic Major", ",", "Saouta", ",", "Simbi" ],
+					"items" : [ "(new)", ",", "<separator>", ",", "Chromatic", ",", "Major (ionian)", ",", "Minor (dorian)", ",", "Phrygian", ",", "Lydian", ",", "Myxolydian", ",", "Aeolian", ",", "Locrian", ",", "Ascending Melodic Minor", ",", "Javanese AMm", ",", "Lydian AugMm", ",", "4 ammb7", ",", "4 Algerian dh1", ",", "Pentatonic Minor", ",", "Pentatonic Major", ",", "Simbi" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
