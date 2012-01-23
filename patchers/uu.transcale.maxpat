@@ -30,6 +30,34 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"id" : "obj-53",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 756.0, 682.0, 83.0, 20.0 ],
+					"text" : "r #0-root-note"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-50",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 756.0, 726.0, 75.0, 18.0 ],
+					"text" : "root-note $1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
 					"id" : "obj-52",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -131,7 +159,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 690.0, 682.0, 55.0, 18.0 ],
+					"patching_rect" : [ 690.0, 726.0, 55.0, 18.0 ],
 					"text" : "scale $1"
 				}
 
@@ -143,7 +171,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 690.0, 714.0, 25.0, 25.0 ]
+					"patching_rect" : [ 690.0, 765.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -1457,6 +1485,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-29", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-50", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-47", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1484,6 +1521,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-50", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-53", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-46", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1497,6 +1543,16 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"midpoints" : [ 209.0, 604.75, 103.0, 604.75 ],
+					"source" : [ "obj-6", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-50", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 209.0, 709.0, 765.5, 709.0 ],
 					"source" : [ "obj-6", 0 ]
 				}
 
@@ -1777,14 +1833,14 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "uu.scaleedit.maxpat",
-				"bootpath" : "/Users/nicolas/Code/uu.maxpat/patchers",
+				"bootpath" : "/Users/nicolas/code/uu.maxpat/patchers",
 				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "uu.dict.iterif.maxpat",
-				"bootpath" : "/Users/nicolas/Code/uu.maxpat/patchers",
+				"bootpath" : "/Users/nicolas/code/uu.maxpat/patchers",
 				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
