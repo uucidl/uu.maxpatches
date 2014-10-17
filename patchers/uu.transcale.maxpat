@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 1
+			"minor" : 1,
+			"revision" : 6,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 0.0, 124.0, 1218.0, 799.0 ],
@@ -99,6 +100,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-54",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -166,12 +168,12 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "output for queries",
 					"id" : "obj-29",
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 690.0, 765.0, 25.0, 25.0 ]
+					"patching_rect" : [ 690.0, 764.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -247,12 +249,13 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 24.0,
+					"frgb" : 0.0,
 					"id" : "obj-33",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 416.5, 400.0, 165.0, 62.0 ],
+					"patching_rect" : [ 416.5, 400.0, 165.0, 60.0 ],
 					"text" : "Display & edit scales"
 				}
 
@@ -261,6 +264,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-49",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -348,12 +352,13 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 24.0,
+					"frgb" : 0.0,
 					"id" : "obj-39",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 809.5, 346.5, 150.0, 62.0 ],
+					"patching_rect" : [ 809.5, 346.5, 150.0, 60.0 ],
 					"text" : "Store & read scales"
 				}
 
@@ -362,6 +367,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-34",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -381,7 +387,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1032.5, 286.5, 50.0, 32.0 ],
+					"patching_rect" : [ 1032.5, 286.5, 50.0, 31.0 ],
 					"text" : "scales.json"
 				}
 
@@ -494,6 +500,11 @@
 					"patching_rect" : [ 1032.5, 408.5, 112.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 248.0, 7.0, 112.0, 20.0 ],
+					"saved_object_attributes" : 					{
+						"embed" : 0,
+						"parameter_enable" : 0
+					}
+,
 					"text" : "dict @name scales"
 				}
 
@@ -558,12 +569,13 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 24.0,
+					"frgb" : 0.0,
 					"id" : "obj-93",
 					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 809.5, 143.5, 153.0, 89.0 ],
+					"patching_rect" : [ 809.5, 143.5, 153.0, 87.0 ],
 					"text" : "Load scales from json file & autowatch"
 				}
 
@@ -690,7 +702,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 884.0, 486.5, 102.0, 46.0 ],
+					"patching_rect" : [ 884.0, 486.5, 102.0, 45.0 ],
 					"text" : "clear, append (new), append <separator>"
 				}
 
@@ -713,12 +725,13 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 24.0,
+					"frgb" : 0.0,
 					"id" : "obj-71",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 809.5, 16.5, 168.0, 62.0 ],
+					"patching_rect" : [ 809.5, 16.5, 168.0, 60.0 ],
 					"text" : "Setup search path"
 				}
 
@@ -881,6 +894,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-22",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -922,6 +936,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-16",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -1006,6 +1021,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-12",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -1019,6 +1035,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-5",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -1062,7 +1079,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "Note integer input",
+					"comment" : "Note integer input; root-note $1; scale-length $1; scale-file $1; scale $1",
 					"id" : "obj-3",
 					"maxclass" : "inlet",
 					"numinlets" : 0,
@@ -1076,6 +1093,7 @@
 				"box" : 				{
 					"fontname" : "Georgia",
 					"fontsize" : 36.0,
+					"frgb" : 0.0,
 					"id" : "obj-2",
 					"linecount" : 2,
 					"maxclass" : "comment",
@@ -1833,15 +1851,15 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "uu.scaleedit.maxpat",
-				"bootpath" : "/Users/nicolas/code/uu.maxpat/patchers",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/nicolas/Code/uu.maxpat/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "uu.dict.iterif.maxpat",
-				"bootpath" : "/Users/nicolas/code/uu.maxpat/patchers",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/nicolas/Code/uu.maxpat/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
